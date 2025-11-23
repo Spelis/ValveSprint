@@ -4,8 +4,15 @@
   "version": "${version}",
   "name": "ValveSprint",
   "description": "Sprinting like Valve games.",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "Spelis"
+  ],
+  "contact": {
+    "email": "spelis.loves.rust@gmail.com",
+    "issues": "https://github.com/spelis/ValveSprint/issues",
+    "homepage": "https://spelis.projnull.eu",
+    "sources": "https://github.com/spelis/ValveSprint"
+  },
   "license": "MIT",
   "icon": "assets/valvesprint/icon.png",
   "environment": "client",
@@ -15,13 +22,9 @@
     ],
     "client": [
       "eu.projnull.spelis.valvesprint.client.ValveSprintClient"
-    ],
-    "main": [
-      "eu.projnull.spelis.valvesprint.ValveSprint"
     ]
   },
   "mixins": [
-    "valvesprint.mixins.json",
     {
       "config": "valvesprint.client.mixins.json",
       "environment": "client"
